@@ -35,15 +35,13 @@
     }
 
     .profile-pic {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-      object-positon: center left;
-      border-radius: 50%;
-      margin: auto;
-      display: block;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-      border: 4px solid white;
+     .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* full screen height */
+}
+
     }
 
     header p {
@@ -115,7 +113,9 @@
 <body>
   <header>
     <h1>Collins Ewezuga Obasi</h1>
+    <div class= "image wrapper">
     <img src="2f7f27c7-35bd-4a6a-a942-69183e6d0b54.jpg" alt="Collins Profile Photo" class="profile-pic" />
+      <div/>
     <p>Missionary • Entrepreneur • Game Developer • Tech Visionary</p>
     <p class="quote">“My mission is to build an empire of purpose, create jobs through creativity, and bless lives through tech, faith, and unstoppable innovation.”</p>
   </header>
